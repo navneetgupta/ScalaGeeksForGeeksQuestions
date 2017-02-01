@@ -1,0 +1,11 @@
+/bin/
+.cache-maian
+.classpath
+.project
+.settings/
+.worksheet/
+.DS_Store
+*.class
+.cache*
+.classpath
+.settings/*
