@@ -5,7 +5,30 @@ package com.tree.binarytree
  * @createdOn: 03-Jan-2017
  */
 
-sealed trait BinaryTree[+A]
+sealed trait BinaryTree[+A] {
+  def hasLeft:Boolean = this match {
+    case EmptyTree => false
+    case Node(v,l,r) => l match {
+      case Node(v1,l1,r1) => true
+      case _ => false
+    }
+  }
+  def hasRight:Boolean = this match {
+    case EmptyTree => false
+    case Node(v,l,r) => r match {
+      case Node(v1,l1,r1) => true
+      case _ => false
+    }
+  }
+  def getLeft:BinaryTree[A] = this match {
+    case Node(v,Node(v1,l1,r1),_) => Node(v1,l1,r1)
+    case _ => EmptyTree
+  }
+  def getRight:BinaryTree[A] = this match {
+    case Node(v,_,Node(v1,l1,r1)) => Node(v1,l1,r1)
+    case _ => EmptyTree
+  }
+}
 
 case object EmptyTree extends BinaryTree[Nothing]
 case class Node[A](value : A, left: BinaryTree[A] , right: BinaryTree[A]) extends BinaryTree[A]
@@ -85,6 +108,7 @@ object BinaryTree {
   
   val isSubSetTreeTest1 = Node(26,Node(10,Node(4,empty,Node(30,empty,empty)),Node(6,empty,empty)),Node(3,empty,Node(3,empty,empty)))
   val isSubSetTreeTest2 = Node(10,Node(4,empty,Node(30,empty,empty)),Node(6,empty,empty))
+  val maxSumLeafToRoot = Node(10,Node(-2,Node(8,empty,empty),Node(-4,empty,empty)),Node(7,empty,empty))
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
