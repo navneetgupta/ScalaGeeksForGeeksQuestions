@@ -109,6 +109,15 @@ object BinaryTree {
   val isSubSetTreeTest1 = Node(26,Node(10,Node(4,empty,Node(30,empty,empty)),Node(6,empty,empty)),Node(3,empty,Node(3,empty,empty)))
   val isSubSetTreeTest2 = Node(10,Node(4,empty,Node(30,empty,empty)),Node(6,empty,empty))
   val maxSumLeafToRoot = Node(10,Node(-2,Node(8,empty,empty),Node(-4,empty,empty)),Node(7,empty,empty))
+  val isoMorphismTree1 = Node(1,Node(2,Node(4,empty,empty),Node(5,Node(7,empty,empty),Node(8,empty,empty))),Node(3,Node(6,empty,empty),empty))
+  val isoMorphismTree2 = Node(1,Node(3,empty,Node(6,empty,empty)),Node(2,Node(4,empty,empty),Node(5,Node(8,empty,empty),Node(7,empty,empty))))
+  
+  
+  
+  
+  
+  
+  
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
