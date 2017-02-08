@@ -116,9 +116,11 @@ object BinaryTree {
   val bstToBalancedBSTTest1 = Node(30,Node(20,Node(10,empty,empty),empty),empty)
   val bstToBalancedBSTTest2 = Node(4,Node(3,Node(2,Node(1,empty,empty),empty),empty),Node(5,empty,Node(6,empty,Node(7,empty,empty))))
   
-  
-  
-  
+  val maxConcurrentIncreasing = Node(10,Node(11,Node(13,empty,empty),Node(12,empty,empty)),Node(9,Node(13,empty,empty),Node(8,empty,empty)))
+  val maxConcurrentIncreasing2 = Node(5,Node(8,Node(9,Node(6,empty,empty),empty),empty),Node(11,empty,Node(10,Node(15,empty,empty),empty)))
+
+  val expresiionTree = Node("+",Node("*",Node("5",empty,empty),Node("4",empty,empty)),Node("-",Node("100",empty,empty),Node("20",empty,empty)))
+  val expresiionTree1 = Node("+",Node("*",Node("5",empty,empty),Node("4",empty,empty)),Node("-",Node("100",empty,empty),Node("/",Node("20",empty,empty),Node("2",empty,empty))))
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
