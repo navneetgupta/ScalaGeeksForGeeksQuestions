@@ -121,6 +121,11 @@ object BinaryTree {
 
   val expresiionTree = Node("+",Node("*",Node("5",empty,empty),Node("4",empty,empty)),Node("-",Node("100",empty,empty),Node("20",empty,empty)))
   val expresiionTree1 = Node("+",Node("*",Node("5",empty,empty),Node("4",empty,empty)),Node("-",Node("100",empty,empty),Node("/",Node("20",empty,empty),Node("2",empty,empty))))
+  val pairSumTree = Node(8,Node(5,Node(9,empty,empty),Node(7,Node(1,empty,empty),Node(12,empty,Node(2,empty,empty)))),Node(4,empty,Node(11,Node(3,empty,empty),empty)))
+  
+  
+  
+  
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
