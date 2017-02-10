@@ -19,14 +19,18 @@ object PairSumInRootToPathEqualRootData {
 	 *	Remove current node from hash table so that it doesn’t appear in other root to leaf paths.
    */
   
-  def printPathUtil(tree: BinaryTree[Int],list:List[Int],rootData: Int) : (Boolean,List[Int]) = tree match {
-    case EmptyTree => (false,list)
+  def printPathUtil(tree: BinaryTree[Int],list:List[Int],rootData: Int,res:Boolean) : (Boolean,List[Int]) = tree match {
+    case EmptyTree => println("res = "+ res+"  " +list);(res,list)
     case Node(v,l,r) => 
-      if(list.contains(rootData-v)) (true,list)
+       println(" rootData-v = "+(rootData-v) )
+      if(list.contains(rootData-v)) {
+         println("res = "+ res+"  " +list);
+        (true,list)
+      }
       else {
-        val xs_new  = (rootData-v)::list
-        val lt = printPathUtil(l, list, rootData)
-        if(!lt._1) printPathUtil(r, lt._2, rootData)
+        val xs_new  = (v)::list
+        val lt = printPathUtil(l, xs_new, rootData,res)
+        if(!lt._1)printPathUtil(r, lt._2, rootData,lt._1)
         else lt
       }
   }
@@ -34,6 +38,24 @@ object PairSumInRootToPathEqualRootData {
   def isPrintSum(tree: BinaryTree[Int]): Boolean = tree match {
     case EmptyTree => true
     case Node(v,l,r) => 
-       printPathUtil(tree, Nil, v)._1
+       var lt = printPathUtil(l, Nil, v,false) 
+       println("left side done found " + lt._1 +" list is "+ lt._2)
+       if(!lt._1) printPathUtil(r, Nil, v,false)._1
+       else lt._1
   }
 }
+
+//                                                          4
+//                                                       /     \
+//                                                      /       \
+//                                                     2         5
+//                                                   /   \
+//                                                  1     3
+
+
+
+
+
+
+
+

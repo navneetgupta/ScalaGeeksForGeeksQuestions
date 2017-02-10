@@ -9,15 +9,19 @@ object PairSumInRootToPathEqualRootDataTest {
   
   xs.contains(6)                                  //> res0: Boolean = false
   
-  isPrintSum(tree1)                               //> res1: Boolean = false
-  isPrintSum(tree2)                               //> res2: Boolean = false
-  isPrintSum(binarySearchTree)                    //> res3: Boolean = false
-  isPrintSum(balancedtree)                        //> res4: Boolean = false
-  isPrintSum(balancedtree2)                       //> res5: Boolean = false
-  isPrintSum(isoMorphismTree1)                    //> res6: Boolean = false
-  isPrintSum(isoMorphismTree2)                    //> res7: Boolean = false
-  isPrintSum(isSumtreeTest)                       //> res8: Boolean = false
-  isPrintSum(isSubSetTreeTest1)                   //> res9: Boolean = false
-  isPrintSum(isSubSetTreeTest2)                   //> res10: Boolean = false
-  isPrintSum(pairSumTree)                         //> res11: Boolean = false
+  isPrintSum(pairSumTree)                         //>  rootData-v = 3
+                                                  //|  rootData-v = -1
+                                                  //| res = false  List(9, 5)
+                                                  //| res = false  List(9, 5)
+                                                  //|  rootData-v = 1
+                                                  //|  rootData-v = 7
+                                                  //| res = false  List(7, 9, 5)
+                                                  //| left side done found true list is List(7, 9, 5)
+                                                  //| res1: Boolean = true
+  
+                                      
+                                                  
+                                
+  
+  
 }
