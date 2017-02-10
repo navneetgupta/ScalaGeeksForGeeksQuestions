@@ -87,8 +87,8 @@ object BinaryTree {
       
   val balancedtree =  node(1,node(2,node(4,node(8,empty,empty),node(9,empty,empty)),node(5,node(10,empty,empty),node(11,empty,empty))),
       node(3,node(6,node(12,empty,empty),node(13,empty,empty)),node(7,node(14,empty,empty),node(15,empty,empty))))
- 
   val balancedtree2 =  node(200,node(2,node(4,node(8,empty,empty),node(9,empty,empty)),node(5,node(10,empty,empty),node(11,empty,empty))),
+ 
       node(60,node(6,node(12,empty,empty),node(13,empty,empty)),node(7,node(14,empty,empty),node(15,empty,empty))))
       
       
