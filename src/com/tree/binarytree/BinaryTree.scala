@@ -28,6 +28,10 @@ sealed trait BinaryTree[+A] {
     case Node(v,_,Node(v1,l1,r1)) => Node(v1,l1,r1)
     case _ => EmptyTree
   }
+  def isLeafNode: Boolean = this match {
+    case Node(v,EmptyTree,EmptyTree) => true
+    case _ => false
+  }
 }
 
 case object EmptyTree extends BinaryTree[Nothing]
@@ -122,25 +126,26 @@ object BinaryTree {
   val expresiionTree = Node("+",Node("*",Node("5",empty,empty),Node("4",empty,empty)),Node("-",Node("100",empty,empty),Node("20",empty,empty)))
   val expresiionTree1 = Node("+",Node("*",Node("5",empty,empty),Node("4",empty,empty)),Node("-",Node("100",empty,empty),Node("/",Node("20",empty,empty),Node("2",empty,empty))))
   val pairSumTree = Node(8,Node(5,Node(9,empty,empty),Node(7,Node(1,empty,empty),Node(12,empty,Node(2,empty,empty)))),Node(4,empty,Node(11,Node(3,empty,empty),empty)))
+  val deepestNodeTest = Node(10,Node(28,empty,empty),Node(13,Node(14,empty,empty),Node(15,Node(23,empty,empty),Node(24,empty,empty))))
+  val deepestNodeTest2 = Node(5,Node(10,Node(3,empty,empty),Node(4,Node(44,empty,Node(12,empty,empty)),empty)),Node(2,empty,Node(15,Node(9,empty,empty),Node(8,empty,empty))))
   
-  
-  
+  val pathWithGivenSum = Node(10,Node(28,empty,empty),Node(13,Node(14,Node(21,empty,empty),Node(22,empty,empty)),Node(15,Node(23,empty,empty),Node(24,empty,empty))))
   
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
-//											/	 \	  							  	 1                                               /        \
+//											/	 \	  							  	1                                               /        \
 //                                              /    \                                            2          2
 //																			      2       10                                         /            \
 //                                          /   \       \                                       3              3
-//                                        /      9       19                                    /                \
-//											  						  3       /                                             4                  4
-//                                    /   \    17                                            /                    \
-//                                   /     \                                                5                      5
-//  																4       12                                             /                        \
+//                                        /      \       \                                   /                \
+//											  						  3         9      19                                    4                  4
+//                                    /   \      /                                           /                    \
+//                                   /     \     /                                           5                      5
+//  																4       12  17                                           /                        \
 //                                /  \        \                                           6                          6
-//                               /    \        16                                        /                            \
-//															5      11                                               7                              7
+//                               /    \        \                                        /                            \
+//															5      11      16                                      7                              7
 //                             /  \    /                                               /                                \
 //														6    8  15                                              8                                  8
 //                          /  \                                                     /                                    \
