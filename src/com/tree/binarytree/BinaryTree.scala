@@ -32,6 +32,11 @@ sealed trait BinaryTree[+A] {
     case Node(v,EmptyTree,EmptyTree) => true
     case _ => false
   }
+  
+  def isEmptyTree: Boolean = this match {
+    case EmptyTree => true
+    case _ => false
+  }
 }
 
 case object EmptyTree extends BinaryTree[Nothing]
@@ -130,7 +135,7 @@ object BinaryTree {
   val deepestNodeTest2 = Node(5,Node(10,Node(3,empty,empty),Node(4,Node(44,empty,Node(12,empty,empty)),empty)),Node(2,empty,Node(15,Node(9,empty,empty),Node(8,empty,empty))))
   
   val pathWithGivenSum = Node(10,Node(28,empty,empty),Node(13,Node(14,Node(21,empty,empty),Node(22,empty,empty)),Node(15,Node(23,empty,empty),Node(24,empty,empty))))
-  
+  val sumCoveredAndUncoveredNodes = Node(8,Node(3,Node(1,empty,empty),Node(6,Node(4,empty,empty),Node(16,empty,empty))),Node(10,empty,Node(1,Node(3,empty,empty),empty)))
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
