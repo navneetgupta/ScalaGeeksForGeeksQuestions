@@ -1,11 +1,13 @@
 package com.tree.binarytree
 
+import com.tree.binarytree.BinaryTree._
+
 /**
  * @author: Navneet Gupta
  * @createdOn: 03-Feb-2017
  */
 
-object BoundaryTraversal {
+object BoundaryTraversal extends App{
   /*Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root. 
    * For example, boundary traversal of the following tree is “20 8 4 10 14 25 22”
    *   We break the problem in 3 parts:
@@ -59,4 +61,6 @@ object BoundaryTraversal {
       printLeaves(r)
       printBoundaryRight(r)
   }
+  
+  boundaryTraversal(tree1)
 }

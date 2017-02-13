@@ -6,7 +6,9 @@ package com.tree.binarytree
  */
 
 object AllNodesWithKLeaves {
-  /*Given a binary tree and a integer value K, the task is to find all nodes in given binary tree having K leaves in subtree rooted with them.*/
+  /*
+   * http://www.geeksforgeeks.org/print-nodes-binary-tree-k-leaves/
+   * Given a binary tree and a integer value K, the task is to find all nodes in given binary tree having K leaves in subtree rooted with them.*/
  
   def allNodesWithKLeaves[A](tree: BinaryTree[A],k: Int): Int = tree match {
     case EmptyTree => 0

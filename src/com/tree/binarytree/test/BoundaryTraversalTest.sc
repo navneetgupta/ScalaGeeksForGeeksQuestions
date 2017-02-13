@@ -8,5 +8,5 @@ object BoundaryTraversalTest {
 
 
   boundaryTraversal(tree1)
-  
+
 }
