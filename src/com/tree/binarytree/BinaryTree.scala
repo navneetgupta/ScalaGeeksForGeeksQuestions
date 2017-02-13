@@ -136,6 +136,19 @@ object BinaryTree {
   
   val pathWithGivenSum = Node(10,Node(28,empty,empty),Node(13,Node(14,Node(21,empty,empty),Node(22,empty,empty)),Node(15,Node(23,empty,empty),Node(24,empty,empty))))
   val sumCoveredAndUncoveredNodes = Node(8,Node(3,Node(1,empty,empty),Node(6,Node(4,empty,empty),Node(16,empty,empty))),Node(10,empty,Node(1,Node(3,empty,empty),empty)))
+  
+  val singleValuedSubTree1 = Node(5,Node(1,Node(5,empty,empty),Node(5,empty,empty)),Node(5,empty,Node(5,empty,empty)))
+  val singleValuedSubTree2= Node(5,Node(4,Node(4,empty,empty),Node(4,empty,empty)),Node(5,empty,Node(5,empty,empty))) 
+  val multSumLevelNods = Node(2,Node(7,Node(8,empty,empty),Node(6,Node(1,empty,empty),Node(11,empty,empty))),Node(5,empty,Node(9,Node(4,empty,empty),Node(10,empty,empty))))
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
