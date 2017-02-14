@@ -1,5 +1,11 @@
 package com.tree.binarytree
 
+/**
+ * @author: Navneet Gupta
+ * @createdOn: 14-Feb-2017
+ */
+
+
 object MaxPathSum {
   /*
    * http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/
