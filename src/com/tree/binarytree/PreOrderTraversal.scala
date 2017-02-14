@@ -16,6 +16,14 @@ object PreOrderTraversal {
       preOrderTraversalRecursive(r);
     }
   }
+//  def preOrderTraversalRecursive[A](tree: BinaryTree[A],xs:List[A]) : List[A] = tree match {
+//    case EmptyTree =>  xs.reverse
+//    case Node(v,l,r) => {
+//      (v::xs)
+//      preOrderTraversalRecursive(l);
+//      preOrderTraversalRecursive(r);
+//    }
+//  }
   
   //def preOrderTraversalViaFold[A](tree: BinaryTree[A]) : Unit = fold(tree,Unit)(a => print(a))((b,c) => {})
 }
