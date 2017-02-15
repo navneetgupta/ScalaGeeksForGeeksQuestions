@@ -63,6 +63,17 @@ http://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself
 http://www.geeksforgeeks.org/find-minimum-depth-of-a-binary-tree/								MinimumDepthOfBT**(14/2)
 http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/							MaxPathSum**(14/2)
 
+http://www.geeksforgeeks.org/check-whether-binary-tree-complete-not-set-2-recursive-solution/	IsTreeCompleteRec** (15/2)
+http://www.geeksforgeeks.org/check-whether-binary-tree-full-binary-tree-not/					IsFullBinaryTree**(15/2)
+http://www.geeksforgeeks.org/find-sum-left-leaves-given-binary-tree/							SumOfAllLeftLeaves**(15/2)
+http://www.geeksforgeeks.org/construct-a-binary-tree-from-parent-array-representation/			BinaryTreeFormParentArrayRepresentation(15/2)
+
+
+
+
+
+
+
 
 
 AllNodesWithKLeaves
