@@ -141,7 +141,7 @@ object BinaryTree {
   val singleValuedSubTree2= Node(5,Node(4,Node(4,empty,empty),Node(4,empty,empty)),Node(5,empty,Node(5,empty,empty))) 
   val multSumLevelNods = Node(2,Node(7,Node(8,empty,empty),Node(6,Node(1,empty,empty),Node(11,empty,empty))),Node(5,empty,Node(9,Node(4,empty,empty),Node(10,empty,empty))))
   val symmetricTree = Node(1,Node(2,Node(3,empty,empty),Node(4,empty,empty)),Node(2,Node(4,empty,empty),Node(3,empty,empty)))
-  
+  val findClosestTestTree = Node("A",Node("B",empty,empty),Node("C",Node("E",Node("G",Node("I",empty,empty),Node("J",empty,empty)),empty),Node("F",empty,Node("H",Node("K",empty,empty),empty))))
   
   
   
@@ -153,25 +153,25 @@ object BinaryTree {
 //     emptytree      onlyRoot                tree1                                       leftskeewtree    rightskewTree
 //                       1                                                                          1      1
 //											/	 \	  							  	1                                               /        \
-//                                              /    \                                            2          2
-//																			      2       10                                         /            \
-//                                          /   \       \                                       3              3
+//                                              /    \                                           2          2
+//																			      2(-1)   10(1)                                     /            \
+//                                          /   \       \                                     3              3
 //                                        /      \       \                                   /                \
-//											  						  3         9      19                                    4                  4
-//                                    /   \      /                                           /                    \
-//                                   /     \     /                                           5                      5
-//  																4       12  17                                           /                        \
-//                                /  \        \                                           6                          6
-//                               /    \        \                                        /                            \
-//															5      11      16                                      7                              7
-//                             /  \    /                                               /                                \
-//														6    8  15                                              8                                  8
-//                          /  \                                                     /                                    \
-//												7			13                                                  9                                      9
-//                      /      /  \                                                /                                        \
-//										20			18  14                                             10                                         10
-//                                                                               /                                            \
-//           30  29   34 36  23  48 52  48                                     11                                              11                                             11
+//											  						  3(-2)    9(0)   19(2)                               4                  4
+//                                    /   \      /                                         /                    \
+//                                   /     \     /                                        5                      5
+//  														(-3)4   (-1)12  17(-1)                                   /                        \
+//                                /  \        \                                         6                          6
+//                               /    \        \                                       /                            \
+//												(-4)	5      11(-2)      16(0)                              7                              7
+//                             /  \    /                                             /                                \
+//											(-5)	6(-3)8  15(-3)                                        8                                  8
+//                          /  \                                                   /                                    \
+//									(-6)	7	(-4)13                                                9                                      9
+//                      /      /  \                                              /                                        \
+//							(-7)	20	(-5)18  14(-3)                                       10                                         10
+//                                                                            /                                            \
+//           30  29   34 36  23  48 52  48                                  11                                              11                                             11
 
 //post: 20,7,18,14,13,6,8,5,15,11,4,16,12,3,17,9,3,19,10,1    11,10,9,8,7,6,5,4,3,2,1   11,10,9,8,7,6,5,4,3,2,1  8,9,4,10,11,5,2,12,13,6,14,15,7,3,1
 //pre : 1,2,3,4,5,6,7,20,13,18,14,8,11,15,12,16,9,17,10,19    1,2,3,4,5,6,7,8,9,10,11                              1,2,4,8,9,5,10,11,3,6,12,13,7,14,15
@@ -179,15 +179,15 @@ object BinaryTree {
 
 
 //                                                       balancedtree       
-//                                                                           1
+//                                                                           1(0)
 //                                                                   /               \
-//                                                                2                    3
+//                                                                2 (-1)               3 (1)
 //                                                              /    \              /     \
 //                                                            /       \            /       \  
-//                                                           4         5          6         7
-//                                                         /   \      / \        / \      /   \
-//                                                        /     \    /   \      /   \    /     \
-//                                                       8       9  10   11    12   13  14      15 
+//                                                     (-2)  4      (0)5          6(0)      7(2)
+//                                                         /   \      / \        / \          /   \
+//                                                        /     \    /   \      /   \        /     \
+//                                                   (-3)8  (-1) 9  10(-1)11(1)12(-1)13(1) 14(1)   15(3) 
 //
 //
 // post:   pre  in:                                         4

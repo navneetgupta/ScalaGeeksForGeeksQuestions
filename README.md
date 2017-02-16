@@ -68,6 +68,10 @@ http://www.geeksforgeeks.org/check-whether-binary-tree-full-binary-tree-not/				
 http://www.geeksforgeeks.org/find-sum-left-leaves-given-binary-tree/							SumOfAllLeftLeaves**(15/2)
 http://www.geeksforgeeks.org/construct-a-binary-tree-from-parent-array-representation/			BinaryTreeFormParentArrayRepresentation(15/2)
 
+http://www.geeksforgeeks.org/find-closest-leaf-binary-tree/										FindClosestLeafToAGivenNode**(16/2)
+http://www.geeksforgeeks.org/diagonal-sum-binary-tree/											DiagonalSumOfTree**(16/2)
+http://www.geeksforgeeks.org/bottom-view-binary-tree/											BottomViewOfTree**(16/2)
+http://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/									TopViewOfTree**(16/2)
 
 
 
