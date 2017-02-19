@@ -74,9 +74,11 @@ http://www.geeksforgeeks.org/bottom-view-binary-tree/											BottomViewOfTree
 http://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/									TopViewOfTree**(16/2)
 
 
-
-
-
+http://www.geeksforgeeks.org/find-height-binary-tree-represented-parent-array/					HtOfBinaryTreeFromParentArray**(19/2)
+http://www.geeksforgeeks.org/given-binary-tree-print-nodes-two-given-level-numbers/				NodesBtwnTwoGivenLevel**(19/2)
+http://www.geeksforgeeks.org/perfect-binary-tree-specific-level-order-traversal/				PerfectBinaryTreeSpecificLevelOrderTraversal**(19/2)
+http://www.geeksforgeeks.org/check-two-nodes-cousins-binary-tree/								IsCousindNodesInBT**(19/2)
+http://www.geeksforgeeks.org/succinct-encoding-of-binary-tree/									SuccinctEncodingOfBT**(19/2)
 
 
 

@@ -37,6 +37,16 @@ sealed trait BinaryTree[+A] {
     case EmptyTree => true
     case _ => false
   }
+  
+  def getNodeValue: Option[A] = this match {
+    case Node(v,l,r) => Some(v)
+    case _ => None
+  }
+  def isSameTree[A](tree:BinaryTree[A]) : Boolean = (this,tree) match {
+    case (EmptyTree,EmptyTree) => true
+    case (Node(v1,l1,r1),Node(v2,l2,r2)) if(v1 == v2) => l1.isSameTree(l2) && r1.isSameTree(r2)
+    case _ => false
+  }
 }
 
 case object EmptyTree extends BinaryTree[Nothing]
@@ -142,8 +152,8 @@ object BinaryTree {
   val multSumLevelNods = Node(2,Node(7,Node(8,empty,empty),Node(6,Node(1,empty,empty),Node(11,empty,empty))),Node(5,empty,Node(9,Node(4,empty,empty),Node(10,empty,empty))))
   val symmetricTree = Node(1,Node(2,Node(3,empty,empty),Node(4,empty,empty)),Node(2,Node(4,empty,empty),Node(3,empty,empty)))
   val findClosestTestTree = Node("A",Node("B",empty,empty),Node("C",Node("E",Node("G",Node("I",empty,empty),Node("J",empty,empty)),empty),Node("F",empty,Node("H",Node("K",empty,empty),empty))))
-  
-  
+  val cousinNodeTest = Node(6,Node(3,Node(7,empty,empty),Node(8,empty,empty)),Node(5,Node(1,empty,empty),Node(3,empty,empty)))
+  val succinctTreeTest = Node(10, Node(20, Node(40,empty,empty), Node(50,empty,empty)), Node(30,empty, Node(70,empty,empty)))
   
   
   
