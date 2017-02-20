@@ -86,6 +86,16 @@ http://www.geeksforgeeks.org/print-nodes-dont-sibling-binary-tree/								PrintN
 http://www.geeksforgeeks.org/print-nodes-distance-k-leaf-node/									PrintAllNodesAtKDistanceFromLeaf**(20/2)
 http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/						PrintAllNodesAtKDistanceFromAnyNode**(20/2)
 http://www.geeksforgeeks.org/find-distance-two-given-nodes/										DistanceBtwnTwoGivenKeysOfBT*(20/2) TestAgain
+http://www.geeksforgeeks.org/find-next-right-node-of-a-given-key/								NextRightNodeOfAGivenKey**(20/2)
+http://www.geeksforgeeks.org/sum-numbers-formed-root-leaf-paths/								SumOfAllNumberFormedByRootToLEafPAth**(20/2)
+
+
+
+
+
+
+
+
 
 AllNodesWithKLeaves
 AllPathsFromRootWithGivenSum
