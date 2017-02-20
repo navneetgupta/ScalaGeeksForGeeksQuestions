@@ -80,10 +80,12 @@ http://www.geeksforgeeks.org/perfect-binary-tree-specific-level-order-traversal/
 http://www.geeksforgeeks.org/check-two-nodes-cousins-binary-tree/								IsCousindNodesInBT**(19/2)
 http://www.geeksforgeeks.org/succinct-encoding-of-binary-tree/									SuccinctEncodingOfBT**(19/2)
 
-
-
-
-
+http://www.geeksforgeeks.org/print-binary-tree-vertical-order/									VerticalOrderOfTree**(20/2)
+http://www.geeksforgeeks.org/check-given-binary-tree-follows-height-property-red-black-tree/	IsHeightBalancedLikeRBTree**(20/2)
+http://www.geeksforgeeks.org/print-nodes-dont-sibling-binary-tree/								PrintNodesNotHavingSiblings**(20/2)
+http://www.geeksforgeeks.org/print-nodes-distance-k-leaf-node/									PrintAllNodesAtKDistanceFromLeaf**(20/2)
+http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/						PrintAllNodesAtKDistanceFromAnyNode**(20/2)
+http://www.geeksforgeeks.org/find-distance-two-given-nodes/										DistanceBtwnTwoGivenKeysOfBT*(20/2) TestAgain
 
 AllNodesWithKLeaves
 AllPathsFromRootWithGivenSum

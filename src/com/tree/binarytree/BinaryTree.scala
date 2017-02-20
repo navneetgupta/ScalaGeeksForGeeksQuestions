@@ -154,7 +154,9 @@ object BinaryTree {
   val findClosestTestTree = Node("A",Node("B",empty,empty),Node("C",Node("E",Node("G",Node("I",empty,empty),Node("J",empty,empty)),empty),Node("F",empty,Node("H",Node("K",empty,empty),empty))))
   val cousinNodeTest = Node(6,Node(3,Node(7,empty,empty),Node(8,empty,empty)),Node(5,Node(1,empty,empty),Node(3,empty,empty)))
   val succinctTreeTest = Node(10, Node(20, Node(40,empty,empty), Node(50,empty,empty)), Node(30,empty, Node(70,empty,empty)))
-  
+  val heightRBTreeBalnaces = Node(12,empty,Node(14,empty,Node(16,empty,empty)))
+  val heightRBTreeBalnaces2 = Node(40,Node(10,empty,empty),Node(100,Node(60,empty,empty),Node(150,empty,empty)))
+  val heightRBTreeBalnaces3 = Node(10,Node(5,empty,empty),Node(100,Node(50,Node(40,empty,empty),empty),Node(150,empty,empty)))
   
   
   

@@ -1,5 +1,10 @@
 package com.tree.binarytree
 
+/**
+ * @author: Navneet Gupta
+ * @createdOn: 19-Feb-2017
+ */
+
 object HtOfBinaryTreeFromParentArray extends App {
   /*
    * http://www.geeksforgeeks.org/find-height-binary-tree-represented-parent-array/

@@ -1,5 +1,10 @@
 package com.tree.binarytree
 
+/**
+ * @author: Navneet Gupta
+ * @createdOn: 19-Feb-2017
+ */
+
 object IsCousindNodesInBT {
   /*
    * http://www.geeksforgeeks.org/check-two-nodes-cousins-binary-tree/
