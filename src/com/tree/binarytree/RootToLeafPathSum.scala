@@ -6,6 +6,9 @@ package com.tree.binarytree
  */
 
 object RootToLeafPathSum {
+  /*
+   *http://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/
+   *  */
   
   def isRootToLeafPathSumEqualGivenX2(tree: BinaryTree[Int], x: Int) : Boolean = tree match {
     case EmptyTree => x==0

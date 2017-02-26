@@ -9,6 +9,7 @@ import scala.collection.mutable.HashMap
 
 object PairSumInRootToPathEqualRootData {
   /*
+   * http://www.geeksforgeeks.org/find-pair-root-leaf-path-sum-equals-roots-data/
    * The idea is based on hashing and tree traversal. The idea is similar to method 2 of array pair sum problem.
 
 	 *	Create an empty hash table.

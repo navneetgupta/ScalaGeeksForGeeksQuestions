@@ -8,6 +8,9 @@ import scala.collection.mutable.Queue
  */
 
 object IterativeHeightOfTree {
+  /*
+   *http://www.geeksforgeeks.org/iterative-method-to-find-height-of-binary-tree/
+   */
   def heightOfTreeIterative[A](tree: BinaryTree[A]):Int = tree match {
     case EmptyTree => 0
     case Node(v,l,r) => 

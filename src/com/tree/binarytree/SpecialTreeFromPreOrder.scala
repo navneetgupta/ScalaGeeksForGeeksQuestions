@@ -6,6 +6,9 @@ package com.tree.binarytree
  */
 
 object SpecialTreeFromPreOrder {
+  /*
+   * http://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/
+   * */
   def createTreeUtil[A](preOrder: Array[A],preLN: Array[Char],pIndex: PIndex,n: Int):BinaryTree[A] = {
     val indx = pIndex.index
     if(indx ==n) EmptyTree

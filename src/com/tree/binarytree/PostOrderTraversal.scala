@@ -6,6 +6,9 @@ package com.tree.binarytree
  */
 
 object PostOrderTraversal {
+  /*
+   * http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+   * */
   def postOrderTraversalRecursive[A](tree: BinaryTree[A]) : Unit = tree match {
     case EmptyTree =>
     case Node(v,l,r) => {

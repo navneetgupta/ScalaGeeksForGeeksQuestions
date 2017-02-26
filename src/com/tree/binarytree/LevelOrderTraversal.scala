@@ -6,7 +6,9 @@ package com.tree.binarytree
  */
 
 object LevelOrderTraversal {
-  
+  /*
+   * http://www.geeksforgeeks.org/level-order-tree-traversal/ 
+   * */
   def printLevelOrderRecursive[A](tree: BinaryTree[A]): Unit  = {
     val h: Int = MaxDepthOrHeight.maxDepthOrHeightViaFold(tree)
     for{

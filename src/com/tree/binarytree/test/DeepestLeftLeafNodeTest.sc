@@ -5,7 +5,7 @@ import com.tree.binarytree.DeepestLeftLeafNode.deepestLeftLeaf
 
 object DeepestLeftLeafNodeTest {
   println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
-  
+ 
   deepestLeftLeaf(tree1)                          //> res0: com.tree.binarytree.BinaryTree[Int] = Node(19,EmptyTree,EmptyTree)
   deepestLeftLeaf(childrenSumPropertyTree)        //> res1: com.tree.binarytree.BinaryTree[Int] = Node(4,EmptyTree,EmptyTree)
   deepestLeftLeaf(childrenSumPropertyTree1)       //> res2: com.tree.binarytree.BinaryTree[Int] = Node(2,EmptyTree,EmptyTree)

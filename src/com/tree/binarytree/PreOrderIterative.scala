@@ -8,6 +8,7 @@ import scala.collection.mutable.Stack
  */
 object PreOrderIterative {
   /*
+   * http://www.geeksforgeeks.org/iterative-preorder-traversal/
    * 1) Create an empty stack nodeStack and push root node to stack.
 		 2) Do following while nodeStack is not empty.
 		    ….a) Pop an item from stack and print it.

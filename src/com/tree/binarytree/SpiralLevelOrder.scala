@@ -8,6 +8,9 @@ package com.tree.binarytree
 import scala.collection.mutable.Stack
 //Test check LevelOrderTraversal
 object SpiralLevelOrder {
+  /*
+   * http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/
+   * */
   def spiralLevelOrderTraversal[A](tree: BinaryTree[A]):Unit = {
     var ltr = true
     for{

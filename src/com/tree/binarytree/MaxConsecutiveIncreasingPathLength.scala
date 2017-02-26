@@ -1,5 +1,4 @@
 package com.tree.binarytree
-/*Given a Binary Tree find the length of the longest path which comprises of nodes with consecutive values in increasing order.*/
 
 import com.tree.binarytree.BinaryTree.maxConcurrentIncreasing
 
@@ -9,7 +8,10 @@ import com.tree.binarytree.BinaryTree.maxConcurrentIncreasing
  */
 
 object MaxConsecutiveIncreasingPathLength extends App {
-  
+   /*
+ 		* http://www.geeksforgeeks.org/maximum-consecutive-increasing-path-length-in-binary-tree/
+ 		* Given a Binary Tree find the length of the longest path which comprises of nodes with consecutive values in increasing order.*/
+
   def maxPathLengthUtil(tree: BinaryTree[Int],prev_val:Int,prev_len:Int):Int = tree match {
     case EmptyTree => prev_len
     case Node(v,l,r) if(v == prev_val+1) =>  {

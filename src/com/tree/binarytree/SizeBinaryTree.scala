@@ -8,7 +8,9 @@ package com.tree.binarytree
 
 object SizeBinaryTree {
   import com.tree.binarytree.BinaryTree._
-  
+  /*
+   * http://www.geeksforgeeks.org/write-a-c-program-to-calculate-size-of-a-tree/
+   * */
   def size[A](tree: BinaryTree[A]): Int = tree match {
     case EmptyTree => 0
     case Node(v,l,r) => {1 + size(l) + size(r)}

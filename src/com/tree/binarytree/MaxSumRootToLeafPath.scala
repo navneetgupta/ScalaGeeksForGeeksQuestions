@@ -9,6 +9,10 @@ import com.tree.binarytree.BinaryTree._
 
 object MaxSumRootToLeafPath extends App {
   
+  /*
+   * http://www.geeksforgeeks.org/find-the-maximum-sum-path-in-a-binary-tree/
+   * */
+  
   var at:BinaryTree[Int] = EmptyTree
   
    def printPath[A](tree: BinaryTree[A],target_tree: BinaryTree[A]):Boolean = {

@@ -9,8 +9,10 @@ import scala.collection.mutable.Stack
 //Test in PostOrderTest.sc
 
 object PostOrderIterative {
+  
   //---------------------------------- Using two stack---------------------------------------
   /*
+   * http://www.geeksforgeeks.org/iterative-postorder-traversal/
    *  more complex than the other two traversals (due to its nature of non-tail recursion, there is an extra statement 
    *  after the final recursive call to itself)
    *  1. Push root to first stack.
@@ -52,6 +54,7 @@ object PostOrderIterative {
   
   //---------------------------------- Using one stack---------------------------------------
   /*
+   * http://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/
    * 1.1 Create an empty stack
 		 2.1 Do following while root is not NULL
    		 a) Push root's right child and then root to stack.

@@ -8,7 +8,9 @@ import scala.collection.mutable.Queue
  */
 
 object MaxLevelSum {
-  /*Given a Binary Tree having positive and negative nodes, the task is to find maximum sum level in it.
+  /*
+   * http://www.geeksforgeeks.org/find-level-maximum-sum-binary-tree/
+   * Given a Binary Tree having positive and negative nodes, the task is to find maximum sum level in it.
    * 
    * This problem is a variation of maximum width problem. The idea is to do level order traversal of tree.
    *  While doing traversal, process nodes of different level separately. For every level being processed, '

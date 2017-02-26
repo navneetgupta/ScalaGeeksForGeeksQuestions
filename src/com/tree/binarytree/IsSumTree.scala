@@ -5,6 +5,7 @@ package com.tree.binarytree
  *  left subtree and right subtree. An empty tree is SumTree and sum of an empty tree can be considered as 0. 
  *  A leaf node is also considered as SumTree.
  *  */
+
 object IsSumTree {
    def isSumTree(tree:BinaryTree[Int]):Boolean = tree match {
      case EmptyTree => true

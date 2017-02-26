@@ -12,6 +12,10 @@ package com.tree.binarytree
  */
 
 object RightViewOfTree {
+  
+  /*
+   * http://www.geeksforgeeks.org/print-right-view-binary-tree-2/
+   * */
   def rightViewUtil[A](tree: BinaryTree[A],level: Int,maxLevel:Int,xs :List[A]): (List[A],Int) = tree match {
     case EmptyTree => (xs,maxLevel)
     case Node(v,l,r) => 

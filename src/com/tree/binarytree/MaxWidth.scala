@@ -7,7 +7,9 @@ package com.tree.binarytree
 
 
 object MaxWidth {
-  
+  /*
+   * http://www.geeksforgeeks.org/maximum-width-of-a-binary-tree/
+   * */
   //-----------------------------Method 1 with mutable Varriable Start--------------------------
   def maxWidth1[A](tree: BinaryTree[A]): Int = {
     var maxWidth = 0

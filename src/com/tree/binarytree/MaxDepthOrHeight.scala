@@ -7,7 +7,9 @@ package com.tree.binarytree
 
 object MaxDepthOrHeight {
   import com.tree.binarytree.BinaryTree._
-  
+  /*
+   * http://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/
+   * */
   def maxDepthOrHeight[A](tree: BinaryTree[A]): Int = tree match {
     case EmptyTree => 0
     case Node(v,l,r) => { 

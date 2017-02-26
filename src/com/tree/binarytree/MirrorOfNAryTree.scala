@@ -2,6 +2,7 @@ package com.tree.binarytree
 
 object MirrorOfNAryTree {
   /*
+   * http://www.geeksforgeeks.org/mirror-of-n-ary-tree/
    * Given a Tree where every node contains variable number of children, convert the tree to its mirror. 
    * Below diagram shows an example. 
    */

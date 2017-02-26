@@ -2,6 +2,8 @@ package com.tree.binarytree
 
 
 /*
+ * http://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/
+ * 
  * We need to check the Horizontal Distances from root for all nodes. If two nodes have the same 
  * Horizontal Distance (HD), then they are on same vertical line. The idea of HD is simple. 
  * HD for root is 0, a right edge (edge connecting to right subtree) is considered as +1 horizontal 

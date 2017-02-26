@@ -6,6 +6,9 @@ package com.tree.binarytree
  */
 
 object SubTreeWithGivenSum {
+  /*
+   * http://www.geeksforgeeks.org/subtree-given-sum-binary-tree/
+   */
   def subTreeSumUtil(tree: BinaryTree[Int],current_sum : Int,sum:Int,res:Boolean): (Int,Boolean) = tree match {
     case EmptyTree => (0,false)
     case Node(v,l,r) => 

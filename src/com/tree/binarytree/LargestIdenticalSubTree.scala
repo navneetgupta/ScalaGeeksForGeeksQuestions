@@ -2,7 +2,10 @@ package com.tree.binarytree
 
 case class Str(var str:String)
 object LargestIdenticalSubTree {
-  /*A simple solution is to consider every node, recursively check if left and right subtrees are identical */
+  /*
+   * http://www.geeksforgeeks.org/find-largest-subtree-having-identical-left-and-right-subtrees/
+   * 
+   * A simple solution is to consider every node, recursively check if left and right subtrees are identical */
   
   /*
    * We can save recursive calls. The idea is to do a postorder traversal of given binary tree and for each node,

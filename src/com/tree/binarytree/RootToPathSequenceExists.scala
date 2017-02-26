@@ -7,6 +7,7 @@ package com.tree.binarytree
 
 object RootToPathSequenceExists {
   /*
+   * http://www.geeksforgeeks.org/check-root-leaf-path-given-sequence/
    * A simple solution for this problem is to find all root to leaf paths in given tree and for each root to leaf path check 
    * that path and given sequence in array both are identical or not.
 

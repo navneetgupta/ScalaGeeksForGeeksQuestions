@@ -9,7 +9,9 @@ package com.tree.binarytree
 import scala.annotation.tailrec
 
 object PrintRootToLeafNodes {
-  
+  /*
+   * http://www.geeksforgeeks.org/given-a-binary-tree-print-all-root-to-leaf-paths/
+   * */
   //@tailrec
   def printAllPathsFromRootToLeaf[A](tree: BinaryTree[A],xs:List[A]): Unit = tree match {
     case EmptyTree => return

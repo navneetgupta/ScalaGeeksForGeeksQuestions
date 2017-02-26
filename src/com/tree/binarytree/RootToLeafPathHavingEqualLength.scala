@@ -7,7 +7,9 @@ package com.tree.binarytree
  */
 
 object RootToLeafPathHavingEqualLength {
-  
+  /*
+   * http://www.geeksforgeeks.org/root-leaf-paths-equal-lengths-binary-tree/
+   * */
   def pathCountUtil[A](tree: BinaryTree[A],map:Map[Int,Int],pathLen:Int):Map[Int,Int] = tree match {
     case EmptyTree => map
     case Node(v,EmptyTree,EmptyTree) => map + (pathLen -> (map.getOrElse(pathLen, 0) + 1))

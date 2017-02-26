@@ -15,7 +15,9 @@ package com.tree.binarytree
 // For Equality Of CoveredNodesSum and UncoveredNodesSum , calculate UncoveredNodesSum by left and RegihtBoundary traversal and if this sum is half of total sum return true.
 
 object SumCoveredAndUncoveredNodes {
-  
+  /*
+   * http://www.geeksforgeeks.org/check-sum-covered-uncovered-nodes-binary-tree/
+   * */
   def totalSum(tree: BinaryTree[Int]): Int = tree match {
     case EmptyTree => 0
     case Node(v,l,r) => v + totalSum(l) + totalSum(r)

@@ -1,6 +1,9 @@
 package com.tree.binarytree
 
 object VerticalSumOfTreeSet2 {
+  /*
+   * http://www.geeksforgeeks.org/vertical-sum-in-binary-tree-set-space-optimized/
+   * */
   def verticalSumDll(tree: BinaryTree[Int]):Unit = {
    // val dll = verticalSumDllUtil(tree,NodeDLL(0,EmptyNode,EmptyNode))
   }

@@ -12,6 +12,8 @@ import com.tree.binarytree.BinaryTree._
 
 object RootToLeafPathWithoutRecursion extends App{
   /*
+   * http://www.geeksforgeeks.org/print-root-leaf-path-without-using-recursion/
+   * 
    * We can traverse tree iteratively (we have used iterative preorder). The question is, how to extend the traversal 
    * to print root to leaf paths? The idea is to maintain a map to store parent pointers of binary tree nodes. 
    * Now whenever we encounter a leaf node while doing iterative preorder traversal, we can easily print root to 

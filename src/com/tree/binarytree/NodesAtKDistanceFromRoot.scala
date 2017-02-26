@@ -7,7 +7,9 @@ package com.tree.binarytree
 
 
 object NodesAtKDistanceFromRoot {
-  
+  /*
+   * http://www.geeksforgeeks.org/print-nodes-at-k-distance-from-root/
+   * */
   def getNodesAtKDistanceFromRoot(tree: BinaryTree[Int],k:Int,xs:List[Int]): List[Int] = {
     tree match {
       case EmptyTree => Nil

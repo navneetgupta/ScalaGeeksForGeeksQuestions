@@ -6,7 +6,9 @@ package com.tree.binarytree
  */
 
 object LongestConsecutiveSequence {
-  /* Given a Binary Tree find the length of the longest path which comprises of nodes with consecutive values in increasing order. 
+  /* 
+   * http://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/
+   * Given a Binary Tree find the length of the longest path which comprises of nodes with consecutive values in increasing order. 
    * Every node is considered as a path of length 1.
    * We can solve above problem recursively. At each node we need information of its parent node, if current node has value one 
    * more than its parent node then it makes a consecutive path, at each node we will compare node’s value with its parent value 

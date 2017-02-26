@@ -7,7 +7,9 @@ import com.tree.binarytree.BinaryTree._
  */
 
 object PrintAncestors extends App {
-
+  /*
+   * http://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
+   * */
   
   def printAncestorsOfANode(tree: BinaryTree[Int],target: Int):Boolean = tree match {
     case EmptyTree => false
