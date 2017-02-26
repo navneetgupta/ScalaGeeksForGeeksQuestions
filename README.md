@@ -148,3 +148,22 @@ GeeksForGeeks in scala
 117.	http://www.geeksforgeeks.org/deepest-left-leaf-node-in-a-binary-tree/							DeepestLeftLeafNode**(21/2)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Array
+
+1.	http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/		SumPairExists**(24/2)
+2.	http://www.geeksforgeeks.org/majority-element/																																			MajorityElement**(26/2)
+3.	http://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/																												NoOccuringOddNumberOfTimes**(26/2)
+4.	http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/																										MergeNSizeArrayIntoMNSizeArray**(26/2)
