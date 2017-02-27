@@ -164,6 +164,22 @@ GeeksForGeeks in scala
 #Array
 
 1.	http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/		SumPairExists**(24/2)
-2.	http://www.geeksforgeeks.org/majority-element/																																			MajorityElement**(26/2)
-3.	http://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/																												NoOccuringOddNumberOfTimes**(26/2)
-4.	http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/																										MergeNSizeArrayIntoMNSizeArray**(26/2)
+2.	http://www.geeksforgeeks.org/majority-element/														MajorityElement**(26/2)
+3.	http://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/							NoOccuringOddNumberOfTimes**(26/2)
+4.	http://www.geeksforgeeks.org/merge-one-array-of-size-n-into-another-one-of-size-mn/					MergeNSizeArrayIntoMNSizeArray**(26/2)
+5.	http://www.geeksforgeeks.org/write-a-program-to-reverse-an-array-or-string/							ReverseArray**(27/2)
+6.	http://www.geeksforgeeks.org/program-for-array-rotation-continued-reversal-algorithm/				ArrayRotation**(27/2)
+7.	http://www.geeksforgeeks.org/array-rotation/														ArrayRotation*(27/2) - partial
+8.	http://www.geeksforgeeks.org/leaders-in-an-array/													ArrayLeaders**(27/2)
+9.	http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/							MajorityElementInSortedArray**(27/2)
+10.	http://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/ 				Segregate0sand1s**(27/2)
+11.	http://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/ 								BlockSwapArrayRotation*(27/2) -partial
+12.	http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/					MaxSumWithNoTwoAdjacentElt**(27/2)
+
+
+
+
+
+
+
+
