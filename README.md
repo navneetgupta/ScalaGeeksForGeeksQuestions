@@ -175,6 +175,12 @@ GeeksForGeeks in scala
 10.	http://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/ 				Segregate0sand1s**(27/2)
 11.	http://www.geeksforgeeks.org/block-swap-algorithm-for-array-rotation/ 								BlockSwapArrayRotation*(27/2) -partial
 12.	http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/					MaxSumWithNoTwoAdjacentElt**(27/2)
+13.	http://www.geeksforgeeks.org/maximum-difference-between-two-elements/								MaxDiffWithLargerEltAfterSmallerElt**(28/2)
+14.	http://www.geeksforgeeks.org/segregate-even-and-odd-numbers/										SegregateEvenOdd**(28/2)
+15.	http://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/						FindTwoRepeatingEltsBtwn1ToN**(28/2)
+16.	http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/					FindDuplicatesSet1**(28/2)	
+17.	http://www.geeksforgeeks.org/a-product-array-puzzle/ 												ProductArrayPuzzle**(28/2)
+
 
 
 

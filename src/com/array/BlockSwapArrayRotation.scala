@@ -24,7 +24,7 @@ object BlockSwapArrayRotation {
    * */
   
   //Recursive
-  
+  //TODO:: Need to check this recursive call again
   def leftRotate[A](arr: Array[A],d: Int,n:Int,start:Int) : Array[A] = {
     if(d == 0 || d == n){
       arr
