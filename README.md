@@ -180,6 +180,11 @@ GeeksForGeeks in scala
 15.	http://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/						FindTwoRepeatingEltsBtwn1ToN**(28/2)
 16.	http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/					FindDuplicatesSet1**(28/2)	
 17.	http://www.geeksforgeeks.org/a-product-array-puzzle/ 												ProductArrayPuzzle**(28/2)
+18.	http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/							UnionAndIntersectionOfSortedArray**(01/03)
+19.	http://www.geeksforgeeks.org/equilibrium-index-of-an-array/											EquilibriumIndexOfArray**(01/03)
+20.	http://www.geeksforgeeks.org/check-if-array-elements-are-consecutive/								IsArrayElementsConsecutive**(01/03)
+21.	http://www.geeksforgeeks.org/find-the-first-missing-number/											SmallestMissingNumber**(01/03)
+22.	http://www.geeksforgeeks.org/find-the-minimum-distance-between-two-numbers/							MinDistanceBtwnTwoNumber**(01/03)
 
 
 
