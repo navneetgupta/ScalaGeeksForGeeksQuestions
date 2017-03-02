@@ -185,6 +185,9 @@ GeeksForGeeks in scala
 20.	http://www.geeksforgeeks.org/check-if-array-elements-are-consecutive/								IsArrayElementsConsecutive**(01/03)
 21.	http://www.geeksforgeeks.org/find-the-first-missing-number/											SmallestMissingNumber**(01/03)
 22.	http://www.geeksforgeeks.org/find-the-minimum-distance-between-two-numbers/							MinDistanceBtwnTwoNumber**(01/03)
+23.	http://www.geeksforgeeks.org/maximum-length-bitonic-subarray/										MaxLengthBitonicSubArray**(02/03)
+24.	http://www.geeksforgeeks.org/find-subarray-with-given-sum/											SubArrayWithGivenSum**(02/03)
+25.	http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/								FindTripletSum**(02/03)
 
 
 
