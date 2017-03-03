@@ -188,6 +188,11 @@ GeeksForGeeks in scala
 23.	http://www.geeksforgeeks.org/maximum-length-bitonic-subarray/										MaxLengthBitonicSubArray**(02/03)
 24.	http://www.geeksforgeeks.org/find-subarray-with-given-sum/											SubArrayWithGivenSum**(02/03)
 25.	http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/								FindTripletSum**(02/03)
+26. http://www.geeksforgeeks.org/count-smaller-elements-on-right-side/									SmallerEltOnRightSideCount**(03/03)
+27.	http://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/		SmallestPositiveNoMissingFromUnSortedArray**(03/03)
+28.	http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/			TwoNumbersWithOddOccurenceInUnsorted**(03/03)
+29.	http://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/					SortedSubSequenceOfSize3**(03/03)
+30.	http://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/ 				ReplaceEveryeltWithGreatestElmtOnRight**(03/03)
 
 
 

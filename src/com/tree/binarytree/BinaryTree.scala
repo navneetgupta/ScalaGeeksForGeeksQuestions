@@ -73,6 +73,8 @@ object BinaryTree {
     case Node(v,l,r) => Node(f(v),map(l)(f),map(r)(f))
   }
   
+  def getLeftNodeData[A](tree: BinaryTree[A]):A = tree.getLeft.asInstanceOf[Node[A]].value
+  
   
   val tree1 : BinaryTree[Int] = 
     node(1,
