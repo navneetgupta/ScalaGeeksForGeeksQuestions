@@ -192,6 +192,15 @@ GeeksForGeeks in scala
 28.	http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/			TwoNumbersWithOddOccurenceInUnsorted**(03/03)
 29.	http://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/					SortedSubSequenceOfSize3**(03/03)
 30.	http://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/ 				ReplaceEveryeltWithGreatestElmtOnRight**(03/03)
+31.	http://www.geeksforgeeks.org/largest-subarray-with-equal-number-of-0s-and-1s/						LargestSubArrayWithEqualNo0sAnd1s**(04/03)
+32.	http://www.geeksforgeeks.org/find-four-numbers-with-sum-equal-to-given-sum/ 						FourEltsInArrayThatSumToGivenValue**(04/03)
+33.	http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/	BiggestNumberFromArrayElt**(04/03)
+34.	http://www.geeksforgeeks.org/find-number-of-triangles-possible/ 									NoOfPossibleTriangles**(04/03)
+35.	http://www.geeksforgeeks.org/maximum-contiguous-circular-sum/										MaxCircularSubArraySum**(04/03)
+36.	http://www.geeksforgeeks.org/find-the-maximum-repeating-number-in-ok-time/							MaxRepeatingNumber**(04/03)
+37.	http://www.geeksforgeeks.org/construction-of-longest-monotonically-increasing-subsequence-n-log-n/	ConstructionLIS**(04/03)
+38.	http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/ 						RearrangePositiveNegativeNos**(04/03)
+39.	http://www.geeksforgeeks.org/stock-buy-sell/														StockBuySellMaximizeProfit**(04/03)
 
 
 
