@@ -162,7 +162,6 @@ GeeksForGeeks in scala
 
 
 #Array
-
 1.	http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/		SumPairExists**(24/2)
 2.	http://www.geeksforgeeks.org/majority-element/														MajorityElement**(26/2)
 3.	http://www.geeksforgeeks.org/find-the-number-occurring-odd-number-of-times/							NoOccuringOddNumberOfTimes**(26/2)
@@ -193,6 +192,19 @@ GeeksForGeeks in scala
 28.	http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/			TwoNumbersWithOddOccurenceInUnsorted**(03/03)
 29.	http://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/					SortedSubSequenceOfSize3**(03/03)
 30.	http://www.geeksforgeeks.org/replace-every-element-with-the-greatest-on-right-side/ 				ReplaceEveryeltWithGreatestElmtOnRight**(03/03)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
