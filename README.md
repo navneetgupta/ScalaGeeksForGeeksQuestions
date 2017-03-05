@@ -201,6 +201,14 @@ GeeksForGeeks in scala
 37.	http://www.geeksforgeeks.org/construction-of-longest-monotonically-increasing-subsequence-n-log-n/	ConstructionLIS**(04/03)
 38.	http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/ 						RearrangePositiveNegativeNos**(04/03)
 39.	http://www.geeksforgeeks.org/stock-buy-sell/														StockBuySellMaximizeProfit**(04/03)
+40.	http://www.geeksforgeeks.org/move-zeroes-end-array/ 												MoveAllZeroToEnd**(05/03)
+41.	http://www.geeksforgeeks.org/rearrange-given-array-place/ 											RearrangeGivenArray**(05/03)
+42.	http://www.geeksforgeeks.org/merging-intervals/														MergeOverlappingArray**(05/03)
+43.	http://www.geeksforgeeks.org/count-possible-groups-size-2-3-sum-multiple-3/ 						PossibleGroupOf2Or3WithSumAs3Mult**(05/03)
+44.	http://www.geeksforgeeks.org/find-number-zeroes/ 													NoOfZeros**(05/03)
+45.	http://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/						SmallestArrayWithSumGtGivenValue**(05/03)
+46.	http://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/ 									MaxSumPathInTwoArray**(05/03)
+
 
 
 
