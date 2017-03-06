@@ -208,6 +208,12 @@ GeeksForGeeks in scala
 44.	http://www.geeksforgeeks.org/find-number-zeroes/ 													NoOfZeros**(05/03)
 45.	http://www.geeksforgeeks.org/minimum-length-subarray-sum-greater-given-value/						SmallestArrayWithSumGtGivenValue**(05/03)
 46.	http://www.geeksforgeeks.org/maximum-sum-path-across-two-arrays/ 									MaxSumPathInTwoArray**(05/03)
+47.	http://www.geeksforgeeks.org/given-binary-string-count-number-substrings-start-end-1/ 				NoOfSubArrayWithStartEndAs1**(06/03)
+48.	http://www.geeksforgeeks.org/find-index-0-replaced-1-get-longest-continuous-sequence-1s-binary-array/	Replace0To1ToGetMaxContinuous1SSeries**(06/03)
+49. http://www.geeksforgeeks.org/length-largest-subarray-contiguous-elements-set-1/						LargestSubArrayWithContiguousElts**(06/03)
+50.	http://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/								CommonEltInThreeSortedArrray**(06/03)
+51.	http://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/ 				SmallestPsitiveIntWithNoSubsetSum**(06/03)
+
 
 
 
