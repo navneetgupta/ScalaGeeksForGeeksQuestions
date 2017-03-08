@@ -1,8 +1,10 @@
 package com.array
 
+import scala.annotation.tailrec
+
 /**
  * @author: Navneet Gupta
- * @createdOn: 06-Mar-2017
+ * @createdOn: 08-Mar-2017
  */
 
 object NutsAndBoltsPrblm {
@@ -34,15 +36,39 @@ object NutsAndBoltsPrblm {
       As we apply partitioning on nuts and bolts both so the total time complexity will be Θ(2*nlogn) = Θ(nlogn) on average.
    */
   
-  def matchPairs(arr1: Array[Char],arr2: Array[Char],low: Int,high:Int) = ???//{
-//    if(low<high) {
-//      // Choose last character of bolts array for nuts partition.
-//      val pivot = partition()
-//    }
-//  }
+  def matchPairs(nuts: Array[Char],bolts: Array[Char],low: Int,high:Int):(Array[Char],Array[Char]) = {
+    if(low<high) {
+      // Choose last character of bolts array for nuts partition.
+      val (pivot,newNuts) = partition(nuts,low,high,bolts(high))
+      val (pivot2,newBolts) = partition(bolts, low, high, newNuts(pivot))
+      val (newNuts1,newBolts1) = matchPairs(newNuts, newBolts, low, pivot-1)
+      matchPairs(newNuts1, newBolts1, pivot+1, high)
+    } else (nuts,bolts)
+  }
   
-  def partition(arr: Array[Char],low: Int,high: Int,pivot: Char) : Int = ???//{
-//    (low to high).toList
-//  }
+  def partition(arr: Array[Char],low: Int,high: Int,pivot: Char) : (Int,Array[Char]) = {
+    val (i,newArr) = processArr(arr,low,low,pivot,high)
+    val temp2 = newArr(i)
+    newArr(i) = newArr(high)
+    newArr(high) = temp2
+    (i,newArr)
+  }
+  
+  @tailrec
+  def processArr(arr: Array[Char],i: Int,j: Int,pivot: Char,high:Int):(Int,Array[Char]) = {
+    if(j<high) {
+      if(arr(j) < pivot) {
+        val temp1 = arr(i)
+        arr(i) = arr(j)
+        arr(j) = temp1
+        processArr(arr, i+1, j+1, pivot, high)
+      } else if(arr(j) == pivot) {
+        val temp1 = arr(j)
+        arr(j) = arr(high)
+        arr(high) = temp1
+        processArr(arr, i, j, pivot, high)
+      } else processArr(arr, i, j+1, pivot, high)
+    } else (i,arr)
+  }
   
 }

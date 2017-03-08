@@ -213,6 +213,15 @@ GeeksForGeeks in scala
 49. http://www.geeksforgeeks.org/length-largest-subarray-contiguous-elements-set-1/						LargestSubArrayWithContiguousElts**(06/03)
 50.	http://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/								CommonEltInThreeSortedArrray**(06/03)
 51.	http://www.geeksforgeeks.org/find-smallest-value-represented-sum-subset-given-array/ 				SmallestPsitiveIntWithNoSubsetSum**(06/03)
+52.	http://www.geeksforgeeks.org/find-pythagorean-triplet-in-an-unsorted-array/							PythagoreanTriplet**(08/03)
+53.	http://www.geeksforgeeks.org/print-missing-elements-that-lie-in-range-0-99/							PrintMissingIntegersIn0to99Range**(08/03)
+54.	http://www.geeksforgeeks.org/nuts-bolts-problem-lock-key-problem/									NutsAndBoltsPrblm**(08/03)
+55.	http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/ 	RearrangePositiveNegativeEltsSet1**(08/03)
+56.	http://www.geeksforgeeks.org/rearrange-array-arrj-becomes-arri-j/ 									RearrangeArray**(08/03)
+57.	http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/ 					UnionIntersectionUnSortedArray**(08/03)
+58.
+59.
+60.
 
 
 
