@@ -219,9 +219,20 @@ GeeksForGeeks in scala
 55.	http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/ 	RearrangePositiveNegativeEltsSet1**(08/03)
 56.	http://www.geeksforgeeks.org/rearrange-array-arrj-becomes-arri-j/ 									RearrangeArray**(08/03)
 57.	http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/ 					UnionIntersectionUnSortedArray**(08/03)
-58.
-59.
-60.
+58.	http://www.geeksforgeeks.org/count-frequencies-elements-array-o1-extra-space-time/ 					CountFrequenciesOfAllElts**(09/03)
+59.	http://www.geeksforgeeks.org/generate-all-possible-sorted-arrays-from-alternate-elements-of-two-given-arrays/ 	AllSortedArrayFromAltEltsFrm2SortedArr**(10/03)
+60. http://www.geeksforgeeks.org/minimum-number-of-swaps-required-for-arranging-pairs-adjacent-to-each-other/ 	MinSwapsForArrangingAdjacentPairs*(10/03)
+61.	http://www.geeksforgeeks.org/trapping-rain-water/													TrappingRainWater**(10/03)
+62.	http://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/									ConvertToZigZagArray**(10/03)
+63.	http://www.geeksforgeeks.org/find-maximum-average-subarray-of-k-length/								MaxAverageSubArrayOfKLength**(10/03)
+64.	http://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/ 							ReorderArrayAccordingToIndexes**(10/03)
+65.	http://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/					CountTripletsWithSumSmallerThanGivenValue**(10/03)
+66.	http://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/	Flip0sToMakeMaxConsecutives1s**(10/03)
+
+
+
+
+
 
 
 
