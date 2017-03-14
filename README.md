@@ -228,6 +228,11 @@ GeeksForGeeks in scala
 64.	http://www.geeksforgeeks.org/reorder-a-array-according-to-given-indexes/ 							ReorderArrayAccordingToIndexes**(10/03)
 65.	http://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/					CountTripletsWithSumSmallerThanGivenValue**(10/03)
 66.	http://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/	Flip0sToMakeMaxConsecutives1s**(10/03)
+67.	http://www.geeksforgeeks.org/find-maximum-value-of-sum-iarri-with-only-rotations-on-given-array-allowed/	MaxSumiAiWithOneMaxRotation**(10/03)
+68.	http://www.geeksforgeeks.org/find-subarray-least-average/											SubArrayWithLeasetAverage**(10/03)
+69.	http://www.geeksforgeeks.org/count-inversions-of-size-three-in-a-give-array/						CountInversions*(11/03)
+70.	http://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/									LongestSpanWithSameSum**(11/03)
+
 
 
 
