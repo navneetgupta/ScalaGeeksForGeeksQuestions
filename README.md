@@ -239,6 +239,7 @@ GeeksForGeeks in scala
 75.	http://www.geeksforgeeks.org/find-minimum-difference-pair/ 											MinDiffBtwnTwoElts**(17/03)
 76.	http://www.geeksforgeeks.org/find-lost-element-from-a-duplicated-array/								LostEltFromDuplicatedArray**(17/03)
 77.	http://www.geeksforgeeks.org/count-pairs-with-given-sum/											PairsWithGivenSum**(17/03)
+78.	http://www.geeksforgeeks.org/count-minimum-steps-get-given-desired-array/ 							MinStepsForDesiredArray**(17/03)
 
 
 
