@@ -232,6 +232,14 @@ GeeksForGeeks in scala
 68.	http://www.geeksforgeeks.org/find-subarray-least-average/											SubArrayWithLeasetAverage**(10/03)
 69.	http://www.geeksforgeeks.org/count-inversions-of-size-three-in-a-give-array/						CountInversions*(11/03)
 70.	http://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/									LongestSpanWithSameSum**(11/03)
+71.	http://www.geeksforgeeks.org/form-minimum-number-from-given-sequence/ 								MinNoFromGivenSequence**(17/03)
+72.	http://www.geeksforgeeks.org/subarraysubstring-vs-subsequence-and-programs-to-generate-them/		SubArrayVsSubSequence**(17/03)
+73.	http://www.geeksforgeeks.org/count-strictly-increasing-subarrays/									StrictlyIncreasingSubArrays**(17/03)
+74.	http://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form/									RearrangeMaxMinArraySet1**(17/03)
+75.	http://www.geeksforgeeks.org/find-minimum-difference-pair/ 											MinDiffBtwnTwoElts**(17/03)
+76.	http://www.geeksforgeeks.org/find-lost-element-from-a-duplicated-array/								LostEltFromDuplicatedArray**(17/03)
+77.	http://www.geeksforgeeks.org/count-pairs-with-given-sum/											PairsWithGivenSum**(17/03)
+
 
 
 
