@@ -240,7 +240,18 @@ GeeksForGeeks in scala
 76.	http://www.geeksforgeeks.org/find-lost-element-from-a-duplicated-array/								LostEltFromDuplicatedArray**(17/03)
 77.	http://www.geeksforgeeks.org/count-pairs-with-given-sum/											PairsWithGivenSum**(17/03)
 78.	http://www.geeksforgeeks.org/count-minimum-steps-get-given-desired-array/ 							MinStepsForDesiredArray**(17/03)
-
+79.	http://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/ 					MinimizeMaxDiffBtwnHeigts**(18/03)
+80.	http://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/ 	MinNoOfMergeOpToMakePlaindromeArray**(18/03)
+81.	http://www.geeksforgeeks.org/rearrange-array-in-alternating-positive-negative-items-with-o1-extra-space-set-2/	RearrangePositiveNegativeEltsSet2**(18/03)
+82.	http://www.geeksforgeeks.org/absolute-distinct-count-array-sorted-absolute-values/					AbsoluteDistinctCount**(18/03)
+83.	http://www.geeksforgeeks.org/count-all-distinct-pairs-formed-by-contiguous-sub-array/				PairsFromDistinctEltSubArray**(18/03)
+84.	http://www.geeksforgeeks.org/find-maximum-product-of-a-triplet-in-array/							MaxProductOfTriplet**(18/03)	
+85.	http://www.geeksforgeeks.org/pair-with-given-product-set-1-find-if-any-pair-exists/					PairWithGivenProductSet1**(18/03)
+86.	http://www.geeksforgeeks.org/find-number-subarrays-even-sum/ 										NoOfSubArrayWithEvenSum**(18/03)
+87.	http://www.geeksforgeeks.org/minimum-sum-two-numbers-formed-digits-array/ 							MinSumOfTwoNoFromedFromArrayDigits**(18/03)
+88.	http://www.geeksforgeeks.org/maximum-value-k-such-that-array-has-at-least-k-elements-that-are-k/	MaxKWithArryKEltsGreaterThanK**(18/03)
+89.	http://www.geeksforgeeks.org/maximum-absolute-difference-between-sum-of-two-contiguous-sub-arrays/ 	MaxAbsDiffrenceBtwTwoContigousSubArraySum**(18/03)	
+90.	http://www.geeksforgeeks.org/find-frequency-of-each-element-in-a-limited-range-array-in-less-than-on-time/	FreqOfEachEltInLimitedRangeArray**(18/03)
 
 
 
