@@ -252,6 +252,10 @@ GeeksForGeeks in scala
 88.	http://www.geeksforgeeks.org/maximum-value-k-such-that-array-has-at-least-k-elements-that-are-k/	MaxKWithArryKEltsGreaterThanK**(18/03)
 89.	http://www.geeksforgeeks.org/maximum-absolute-difference-between-sum-of-two-contiguous-sub-arrays/ 	MaxAbsDiffrenceBtwTwoContigousSubArraySum**(18/03)	
 90.	http://www.geeksforgeeks.org/find-frequency-of-each-element-in-a-limited-range-array-in-less-than-on-time/	FreqOfEachEltInLimitedRangeArray**(18/03)
+91. http://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/ 										AllSubArrayWithSum0**(19/03)
+92.	http://www.geeksforgeeks.org/remove-duplicates-from-an-array-of-small-primes/ 						RemoveDuplicatesFromArrayOfSmallPrimes**(19/03)
+93.	http://www.geeksforgeeks.org/maximum-sum-iarri-among-rotations-given-array/ 						MaxSumProductIAndArriForAllRotations**(19/03)
+94.	http://www.geeksforgeeks.org/largest-product-subarray-size-k/										LargestProductOfSubArrayOfSizeK**(19/03)
 
 
 
