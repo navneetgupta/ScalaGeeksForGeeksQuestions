@@ -256,6 +256,7 @@ GeeksForGeeks in scala
 92.	http://www.geeksforgeeks.org/remove-duplicates-from-an-array-of-small-primes/ 						RemoveDuplicatesFromArrayOfSmallPrimes**(19/03)
 93.	http://www.geeksforgeeks.org/maximum-sum-iarri-among-rotations-given-array/ 						MaxSumProductIAndArriForAllRotations**(19/03)
 94.	http://www.geeksforgeeks.org/largest-product-subarray-size-k/										LargestProductOfSubArrayOfSizeK**(19/03)
+95.	http://www.geeksforgeeks.org/replace-every-element-with-the-least-greater-element-on-its-right/ 	ReplaceEltWithlestGrtrEltOnRight**(19/03)
 
 
 

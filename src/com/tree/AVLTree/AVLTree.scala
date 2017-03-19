@@ -20,8 +20,8 @@ sealed trait AVLTree[+A] {
     case EmptyAvlNode => EmptyAvlNode
     case AVLNode(v,l,r,h,s) => r
   }
-  
 }
+
 case object EmptyAvlNode extends AVLTree[Nothing]
 case class AVLNode[+A](value:A, left: AVLTree[A], right:AVLTree[A], heigth: Int, size:Int) extends AVLTree[A]
 
