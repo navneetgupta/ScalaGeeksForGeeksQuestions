@@ -257,7 +257,13 @@ GeeksForGeeks in scala
 93.	http://www.geeksforgeeks.org/maximum-sum-iarri-among-rotations-given-array/ 						MaxSumProductIAndArriForAllRotations**(19/03)
 94.	http://www.geeksforgeeks.org/largest-product-subarray-size-k/										LargestProductOfSubArrayOfSizeK**(19/03)
 95.	http://www.geeksforgeeks.org/replace-every-element-with-the-least-greater-element-on-its-right/ 	ReplaceEltWithlestGrtrEltOnRight**(19/03)
-
+96.	http://www.geeksforgeeks.org/jolly-jumper-sequence/													JollyJumper**(22/03)
+97.	http://www.geeksforgeeks.org/find-all-triplets-in-a-sorted-array-that-forms-geometric-progression/	TripletsInSortedArrayFormingGP**(22/03)
+98.	http://www.geeksforgeeks.org/find-if-array-can-be-divided-into-two-subarrays-of-equal-sum/ 			IsTwoSubArrayWithEqualSum**(22/03)
+99. http://www.geeksforgeeks.org/maximum-product-subarray-set-2-using-two-traversals/					MaxProductSubArraySet2**(22/03)
+100.	http://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/ 							ReverseArrayInGroup**(22/03)
+101.	http://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size-2/						ReveseArrayInGroupsSet2**(22/03)
+102.	http://www.geeksforgeeks.org/add-elements-given-arrays-given-constraints/						AddEltsOfGivenArrayWithConstraints**(22/03)
 
 
 
