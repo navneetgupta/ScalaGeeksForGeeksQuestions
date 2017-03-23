@@ -264,6 +264,13 @@ GeeksForGeeks in scala
 100.	http://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/ 							ReverseArrayInGroup**(22/03)
 101.	http://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size-2/						ReveseArrayInGroupsSet2**(22/03)
 102.	http://www.geeksforgeeks.org/add-elements-given-arrays-given-constraints/						AddEltsOfGivenArrayWithConstraints**(22/03)
+103.	http://www.geeksforgeeks.org/third-largest-element-array-distinct-elements/						ThirdLargestEltInArray**(23/03)
+104.	http://www.geeksforgeeks.org/find-two-missing-numbers-set-1-an-interesting-linear-time-solution/ FindTwoMissingNoSet1**(23/03)
+105.	http://www.geeksforgeeks.org/active-inactive-cells-k-days/										ActivaAndInactiveCellsAfterKDays**(23/03)
+106.	http://www.geeksforgeeks.org/maximize-value-of-arri-i-arrj-j-in-an-array/ 						MaximizeArrIMinusIMinusArrJMinuJ**(23/03)
+107.	http://www.geeksforgeeks.org/change-bits-can-made-one-flip/ 									IsSingleFlipMakeAllBitSame**(23/03)
+108.	http://www.geeksforgeeks.org/find-minimum-elements-considering-possible-transformations/ 		MinEltAfterEveryPossibleTransformation**(23/03)
+109.	http://www.geeksforgeeks.org/maximize-number-0s-flipping-subarray/								MaxmiseZerosBySinglSubArrayflip**(23/03)
 
 
 
