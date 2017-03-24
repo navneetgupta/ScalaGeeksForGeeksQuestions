@@ -271,7 +271,14 @@ GeeksForGeeks in scala
 107.	http://www.geeksforgeeks.org/change-bits-can-made-one-flip/ 									IsSingleFlipMakeAllBitSame**(23/03)
 108.	http://www.geeksforgeeks.org/find-minimum-elements-considering-possible-transformations/ 		MinEltAfterEveryPossibleTransformation**(23/03)
 109.	http://www.geeksforgeeks.org/maximize-number-0s-flipping-subarray/								MaxmiseZerosBySinglSubArrayflip**(23/03)
-
+110.	http://www.geeksforgeeks.org/minimum-initial-energy-required-to-cross-street/					MinInitialEnergyForCrossingStreet**(24/03)
+111.	http://www.geeksforgeeks.org/find-maximum-value-of-absi-j-minarri-arrj-in-an-array-arr/ 		MxValueabsIminusJMultMinAiAj**(24/04)
+112.	http://www.geeksforgeeks.org/check-if-given-array-can-be-arranged-in-left-or-right-positioned-array/ 	IsLeftOrRigthPositionedArray**(24/04)
+113.	http://www.geeksforgeeks.org/maximize-array-sun-after-k-negation-operations/					MaximiseArrSumAfterKNegationsSet1**(24/04)
+114.	http://www.geeksforgeeks.org/maximum-and-minimum-product-subsets-with-one-product-covering-all-elements/	MaxAndMinProductSubSets**(24/04)
+115.	http://www.geeksforgeeks.org/sorted-subsequence-size-3-linear-time-using-constant-space/ 		SortedSubSequenceOfSize3LinearTimeO1Space**(24/04)
+116.	http://www.geeksforgeeks.org/sum-subset-differences/											SumOfSubsetDiffrences**(24/03)
+117.	http://www.geeksforgeeks.org/emulating-a-2-d-array-using-1-d-array/ 							Emulate2DArrayUsing1DArray**(24/03)
 
 
 
