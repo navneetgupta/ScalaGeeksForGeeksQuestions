@@ -279,6 +279,10 @@ GeeksForGeeks in scala
 115.	http://www.geeksforgeeks.org/sorted-subsequence-size-3-linear-time-using-constant-space/ 		SortedSubSequenceOfSize3LinearTimeO1Space**(24/04)
 116.	http://www.geeksforgeeks.org/sum-subset-differences/											SumOfSubsetDiffrences**(24/03)
 117.	http://www.geeksforgeeks.org/emulating-a-2-d-array-using-1-d-array/ 							Emulate2DArrayUsing1DArray**(24/03)
+118.	http://www.geeksforgeeks.org/sum-absolute-differences-pairs-given-array/						SumAbsDiffOfAllPairs**(24/03)
+119.	http://www.geeksforgeeks.org/count-pairs-given-xor/												CountAllPairsWithGivenXOR**(24/03)
+120.	http://www.geeksforgeeks.org/maximum-sum-pairs-specific-difference/								MaxPairSumWithSpecificDiffrence**(24/03)
+121.	http://www.geeksforgeeks.org/length-longest-sub-string-can-make-removed/						LongestSbStringLengthThatCanBeRemoved**(24/03)
 
 
 
