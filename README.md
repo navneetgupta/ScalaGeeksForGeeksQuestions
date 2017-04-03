@@ -283,9 +283,15 @@ GeeksForGeeks in scala
 119.	http://www.geeksforgeeks.org/count-pairs-given-xor/												CountAllPairsWithGivenXOR**(24/03)
 120.	http://www.geeksforgeeks.org/maximum-sum-pairs-specific-difference/								MaxPairSumWithSpecificDiffrence**(24/03)
 121.	http://www.geeksforgeeks.org/length-longest-sub-string-can-make-removed/						LongestSbStringLengthThatCanBeRemoved**(24/03)
-
-
-
+122.	http://www.geeksforgeeks.org/smallest-subarray-whose-sum-multiple-size/							SmallestSubArrayWithSumMultipleOfArraySize**(25/03)
+123.	http://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/ 							MinSwapsToSortArray**(25/03)
+124.	http://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/							MinSwapsForIdenticalArray**(25/03)
+125.	http://www.geeksforgeeks.org/find-equal-or-middle-point-in-a-sorted-array-with-duplicates/ 		MiddleOrEqualPointInSortedArrWithDuplicates**(25/03)
+126.	http://www.geeksforgeeks.org/sum-maximum-elements-subsets/										SumMaxEltOfAllSubSets**(25/03)
+127.	http://www.geeksforgeeks.org/find-maximum-sum-strictly-increasing-subarray/ 					MaxSumStrictlyIncrSubArr**(25/03)
+128.	http://www.geeksforgeeks.org/minimum-delete-operations-make-elements-array/						MinDeleteOprToMakeAllEltSame**(25/03)
+129.	http://www.geeksforgeeks.org/number-swaps-sort-adjacent-swapping-allowed/ 						NoOfSwapsToSortWithOnlyAdjacentSwap(25/03)
+130.	http://www.geeksforgeeks.org/find-maximum-difference-between-nearest-left-and-right-smaller-elements/ 	MaxDiffBtwnNearestLeftRightSmllrElt**(25/03)
 
 
 

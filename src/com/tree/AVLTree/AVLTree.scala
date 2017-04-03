@@ -1,22 +1,24 @@
 package com.tree.AVLTree
 
+import scala.annotation.switch
+
 sealed trait AVLTree[+A] {
-  def getHeight:Int = this match {
+  def getHeight:Int = (this: @switch) match {
     case EmptyAvlNode => 0
     case AVLNode(v,l,r,h,s) => h
   }
   
-  def getSize:Int = this match {
+  def getSize:Int = (this: @switch) match {
     case EmptyAvlNode => 0
     case AVLNode(v,l,r,h,s) => s
   }
   
-  def getLeft: AVLTree[A] = this match {
+  def getLeft: AVLTree[A] = (this: @switch) match {
     case EmptyAvlNode => EmptyAvlNode
     case AVLNode(v,l,r,h,s) => l
   }
   
-  def getRight: AVLTree[A] = this match {
+  def getRight: AVLTree[A] = (this: @switch) match {
     case EmptyAvlNode => EmptyAvlNode
     case AVLNode(v,l,r,h,s) => r
   }
@@ -32,7 +34,7 @@ object AVLTree {
   def node[A](value: A, left: AVLTree[A] = empty, right: AVLTree[A] = empty) =
     AVLNode(value,left,right,1,1)
     
-  def rightRotate[A](tree: AVLTree[A]): AVLTree[A] = tree match {
+  def rightRotate[A](tree: AVLTree[A]): AVLTree[A] = (tree: @switch) match {
     case AVLNode(v,AVLNode(v1,l1,r1,h1,s1),r,h,s) => 
       val newRtHt = List(l1.getHeight,r.getHeight).max +1
       val newRtSz = l1.getSize + r.getSize + 1
@@ -42,7 +44,7 @@ object AVLTree {
     case _ => sys.error("Can Not be Left Rotated");
   }
   
-  def leftRotate[A](tree: AVLTree[A]):AVLTree[A] = tree match {
+  def leftRotate[A](tree: AVLTree[A]):AVLTree[A] = (tree: @switch) match {
     case AVLNode(v,l,AVLNode(v1,l1,r1,h1,s1),h,s) => 
       val newLtHt = List(l.getHeight,l1.getHeight).max +1
       val newLtSz = l.getSize + l1.getSize + 1
@@ -52,12 +54,12 @@ object AVLTree {
     case _ => sys.error("Can Not be Left Rotated");
   }
   
-  def getBalance[A](tree: AVLTree[A]):Int = tree match {
+  def getBalance[A](tree: AVLTree[A]):Int = (tree: @switch) match {
     case EmptyAvlNode => 0
     case AVLNode(v,l,r,h,s) => l.getHeight - r.getHeight
   }
   
-  def insert[A:Ordering](tree: AVLTree[A], a: A): AVLTree[A] = tree match {
+  def insert[A:Ordering](tree: AVLTree[A], a: A): AVLTree[A] = (tree: @switch) match {
     case EmptyAvlNode => node(a)
     case AVLNode(v,l,r,h,s) => 
       val order = implicitly[Ordering[A]]
@@ -100,7 +102,7 @@ object AVLTree {
   
   def min[A:Ordering](tree: AVLTree[A]):A = {
     require( tree != EmptyAvlNode, "Empty Node Cannot find Min")
-    tree match {
+    (tree: @switch) match {
       case AVLNode(v,EmptyAvlNode,_,_,_) => v
       case AVLNode(_,l,_,_,_) => min[A](l)
     }
@@ -108,13 +110,13 @@ object AVLTree {
   
    def max[A:Ordering](tree: AVLTree[A]):A = {
     require( tree != EmptyAvlNode, "Empty Node Cannot find Min")
-    tree match {
+    (tree: @switch) match {
       case AVLNode(v,_,EmptyAvlNode,_,_) => v
       case AVLNode(_,_,r,_,_) => max[A](r)
     }
   }
    
-  def search[A: Ordering](tree: AVLTree[A],a:A):Boolean = tree match {
+  def search[A: Ordering](tree: AVLTree[A],a:A):Boolean = (tree: @switch) match {
     case EmptyAvlNode => false
     case AVLNode(v,l,r,h,s) => 
       val order = implicitly[Ordering[A]]
@@ -123,18 +125,18 @@ object AVLTree {
       else search(r,a)
   }
   
-  def isAVLInvariant[A:Ordering](tree: AVLTree[A]): Boolean = tree match {
+  def isAVLInvariant[A:Ordering](tree: AVLTree[A]): Boolean = (tree: @switch) match {
     case EmptyAvlNode => true
     case AVLNode(v,EmptyAvlNode,EmptyAvlNode,_,_) => true
     case AVLNode(v,l,r,h,s) =>
       val order = implicitly[Ordering[A]]
       val bal = getBalance(tree)
       val balanced = (bal <= 1) && (-1 <= bal)
-      val lBalanced = l match {
+      val lBalanced = (l: @switch) match {
         case EmptyAvlNode => true
         case _ => isAVLInvariant(l) && order.lt(max(l),v)
       }
-      val rBalanced  = r match {
+      val rBalanced  = (r: @switch) match {
         case EmptyAvlNode => true
         case _ => isAVLInvariant(r) && order.gt(max(r),v)
       }  
